@@ -1,9 +1,9 @@
 Projeto de Extensão IV
 
-Site de Sesenvolvimento Sustentável (EcoVida)
+Site de Desenvolvimento Sustentável (EcoVida)
 
-Aluno: Breno Ribeiro Tavares
-Curso: Análise e Desenvolvimentos de Sistemas
+Aluno: Breno Ribeiro Tavares, 
+Curso: Análise e Desenvolvimentos de Sistemas, 
 Faculdade: Descomplica
 
 ---------------------------------------------------------------------------------------------------------------
@@ -16,9 +16,7 @@ a) Home – explicação rápida do projeto e ligação com os ODS.
 
 b) Dicas Sustentáveis – textos curtos sobre consumo consciente e energia.
 
-c) Quiz Interativo – perguntas rápidas com feedback.
-
-d) Dados e Gráficos – visualizações básicas (Chart.js ou Recharts).
+c) Explicações de conceitos
 
 
 
@@ -43,9 +41,7 @@ a) Frontend: HTML, CSS e JavaScript puro
 
 b) Gráficos: Chart.js 
 
-c) Quiz: só JS com validação no navegador mesmo.
-
-d) Design:  CSS puro e Bootstrap para agilidade.
+d) Design:  CSS puro
 
 
 
@@ -111,6 +107,10 @@ d) Design:  CSS puro e Bootstrap para agilidade.
 - 27/09, 28/09, 29/09 -> Estudo dos materiais para escrita
 
 - 01/10, 02/10, 03/10 -> Escrita nas páginas
+
+- 07/10 -> backgrounds diferentes nas páginas
+
+- 09/10 -> Primeiro commit ao github
 
 
 
