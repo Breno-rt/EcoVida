@@ -1,0 +1,226 @@
+/* ============================== */
+/* Estilo da Página Reciclagem (Blog)*/
+/* ============================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+  background: url("../imagens/fundo-mobilidade.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+/* ------------------- */
+/* Header e Menu       */
+/* ------------------- */
+header {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 12px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #66bbb7; /* verde tema */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* ------------------- */
+/* Conteúdo Principal  */
+/* ------------------- */
+main {
+  max-width: 900px;
+  margin: 100px auto 50px auto;
+  background: rgb(20, 20, 20);
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2, h3 {
+  font-family: "Arial Black", sans-serif;
+  color: #66bbb7; /* verde claro */
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 8px rgba(129, 191, 199, 0.6);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 40px;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+/* ------------------- */
+/* Listas Customizadas */
+/* ------------------- */
+ul {
+  margin: 20px 0;
+  padding-left: 25px;
+  list-style: none;
+}
+
+ul li {
+  margin: 8px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+ul li::before {
+  content: "🚶‍♂️";
+  position: absolute;
+  left: 0;
+  color: #66bbb7;
+}
+
+ol {
+  margin: 20px 0;
+  padding-left: 25px;
+  counter-reset: contador;
+}
+
+ol li {
+  margin: 10px 0;
+  padding-left: 5px;
+  counter-increment: contador;
+}
+
+ol li::before {
+  content: counter(contador) ". ";
+  font-weight: bold;
+  color: #66bbb7;
+  margin-right: 6px;
+}
+
+/* ------------------- */
+/* Citações (blockquote) */
+/* ------------------- */
+blockquote {
+  border-left: 4px solid #66bbb7;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px 20px;
+  margin: 25px 0;
+  font-style: italic;
+  color: #c5e7e6;
+}
+
+blockquote:hover{
+  background: rgba(0, 0, 0, 0.95);
+}
+
+/* ------------------- */
+/* Imagens no Conteúdo */
+/* ------------------- */
+figure {
+  margin: 30px auto;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+figure figcaption {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* ------------------- */
+/* Seções Internas     */
+/* ------------------- */
+section {
+  margin: 40px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ------------------- */
+/* Links no Texto      */
+/* ------------------- */
+a {
+  color: #66bbb7;
+  text-decoration: none;
+  border-bottom: 1px dashed #66bbb7;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* ------------------- */
+/* Rodapé              */
+/* ------------------- */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+  color: #ccc;
+}
+
+/* ------------------- */
+/* Responsividade      */
+/* ------------------- */
+@media (max-width: 768px) {
+  main {
+    margin: 80px auto 30px auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+}

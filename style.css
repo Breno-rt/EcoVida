@@ -1,0 +1,151 @@
+/* Fundo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("imagens/fundo.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Menu */
+header {
+  background: rgb(0, 0, 0);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00ff99;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* Conteúdo Principal */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;   /* ocupa tela inteira */
+  padding-top: 50px;   /* compensa header fixo */
+  box-sizing: border-box;
+}
+
+/* Links no conteúdo */
+main a {
+  color: #00ff99;           /* verde padrão que você já usa */
+  font-weight: 500;
+  text-decoration: none;    /* tira o sublinhado */
+  border-bottom: 1px dashed #00ff99; /* marcador sutil */
+  transition: all 0.3s ease;
+}
+
+main a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff; /* destaca no hover */
+}
+
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 10px rgba(0, 255, 153, 0.7);
+}
+
+p {
+  font-size: 1.3em;
+  max-width: 600px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 100px auto;
+  max-width: 900px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+}
+
+/* =================== */
+/* Responsividade */
+/* =================== */
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.3em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  .container {
+    max-width: 700px;
+    padding: 20px;
+  }
+}
+
+/* Celulares (até 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  p {
+    font-size: 1em;
+    padding: 0 15px;
+  }
+  .container {
+    max-width: 95%;
+    margin: 70px auto;
+    padding: 15px;
+  }
+}
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .container {
+    padding: 10px;
+  }
+}
