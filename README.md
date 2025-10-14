@@ -110,7 +110,11 @@ d) Design:  CSS puro
 
 - 07/10 -> backgrounds diferentes nas páginas
 
-- 09/10 -> Primeiro commit ao github
+- 09/10 -> Primeiro commit ao github do código na base (sem mudanças finais)
+
+- 10/10 -> Edição "Sobre" e estrutura de "Materiais"
+
+- 14/10 -> Atualização no sobre e materiais / pesquisa de infográficos
 
 
 
