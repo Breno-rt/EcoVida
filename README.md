@@ -114,7 +114,11 @@ d) Design:  CSS puro
 
 - 10/10 -> Edição "Sobre" e estrutura de "Materiais"
 
-- 14/10 -> Atualização no sobre e materiais / pesquisa de infográficos
+- 13/10 -> Atualização no sobre e materiais / pesquisa de infográficos
+
+- 14/10 -> Cards com infográficos
+
+- 15/10 -> PDFS inseridos em "materiais" 
 
 
 
