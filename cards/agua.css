@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Georgia", serif; /* cara de leitura */
+  font-family: "Georgia", serif;
   background: url("../imagens/fundoagua.png") no-repeat center center fixed;
   background-size: cover;
   color: #ffffff;
@@ -82,6 +82,37 @@ p {
 }
 
 /* ------------------- */
+/* Imagens Responsivas */
+/* ------------------- */
+.blog-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.blog-img:hover {
+    transform: scale(1.02);
+}
+
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-caption {
+    font-size: 0.9em;
+    color: #aaa;
+    margin-top: 8px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* ------------------- */
 /* Listas Customizadas */
 /* ------------------- */
 ul {
@@ -139,27 +170,6 @@ blockquote:hover{
 }
 
 /* ------------------- */
-/* Imagens no Conteúdo */
-/* ------------------- */
-figure {
-  margin: 30px auto;
-  text-align: center;
-}
-
-figure img {
-  max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
-}
-
-figure figcaption {
-  font-size: 0.9em;
-  color: #aaa;
-  margin-top: 8px;
-  font-style: italic;
-}
-
-/* ------------------- */
 /* Seções Internas     */
 /* ------------------- */
 section {
@@ -194,6 +204,26 @@ footer {
 }
 
 /* ------------------- */
+/* Container de Vídeo  */
+/* ------------------- */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* ------------------- */
 /* Responsividade      */
 /* ------------------- */
 @media (max-width: 768px) {
@@ -209,6 +239,10 @@ footer {
   h2 {
     font-size: 1.5em;
   }
+  
+  .blog-img {
+    margin: 15px auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -222,5 +256,9 @@ footer {
 
   h2 {
     font-size: 1.3em;
+  }
+  
+  .image-caption {
+    font-size: 0.8em;
   }
 }

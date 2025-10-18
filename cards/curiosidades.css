@@ -1,5 +1,5 @@
 /* ============================== */
-/* Estilo da Página Reciclagem (Blog)*/
+/* Estilo da Página Curiosidades */
 /* ============================== */
 
 body {
@@ -36,7 +36,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #66bb6a; /* verde tema */
+  color: #58ba8c; /* VERDE diferente das outras */
   font-weight: bold;
   font-family: Arial, sans-serif;
   transition: 0.3s;
@@ -61,9 +61,9 @@ main {
 
 h1, h2, h3 {
   font-family: "Arial Black", sans-serif;
-  color: #81c784; /* verde claro */
+  color: #3e9069; /* VERDE para curiosidades */
   margin-bottom: 15px;
-  text-shadow: 0px 0px 8px rgba(129, 199, 132, 0.6);
+  text-shadow: 0px 0px 8px rgba(60, 161, 114, 0.6);
 }
 
 h1 {
@@ -97,45 +97,26 @@ ul li {
 }
 
 ul li::before {
-  content: "🌿";
+  content: "🔍"; /* Ícone de lupa para curiosidades */
   position: absolute;
   left: 0;
-  color: #66bb6a;
-}
-
-ol {
-  margin: 20px 0;
-  padding-left: 25px;
-  counter-reset: contador;
-}
-
-ol li {
-  margin: 10px 0;
-  padding-left: 5px;
-  counter-increment: contador;
-}
-
-ol li::before {
-  content: counter(contador) ". ";
-  font-weight: bold;
-  color: #66bb6a;
-  margin-right: 6px;
+  color: #00ff88;
 }
 
 /* ------------------- */
 /* Citações (blockquote) */
 /* ------------------- */
 blockquote {
-  border-left: 4px solid #81c784;
+  border-left: 4px solid #00ff88;
   background: rgba(255, 255, 255, 0.05);
   padding: 15px 20px;
   margin: 25px 0;
   font-style: italic;
-  color: #e8f5e9;
+  color: #ccffeb;
 }
 
 blockquote:hover{
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.986);
 }
 
 /* ============================== */
@@ -173,37 +154,6 @@ blockquote:hover{
     line-height: 1.4;
 }
 
-/* Vídeos responsivos */
-.video-container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; /* Proporção 16:9 */
-    margin: 20px 0;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-/* Responsividade para mobile */
-@media (max-width: 768px) {
-    .blog-img {
-        margin: 15px auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .image-caption {
-        font-size: 0.8em;
-    }
-}
-
 /* ------------------- */
 /* Seções Internas     */
 /* ------------------- */
@@ -217,9 +167,9 @@ section {
 /* Links no Texto      */
 /* ------------------- */
 a {
-  color: #81c784;
+  color: #00ff88;
   text-decoration: none;
-  border-bottom: 1px dashed #81c784;
+  border-bottom: 1px dashed #00ff88;
   transition: 0.3s;
 }
 
