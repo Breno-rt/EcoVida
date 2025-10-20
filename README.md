@@ -104,9 +104,9 @@ d) Design:  CSS puro
 
 - 23/09 -> Páginas dos "Cards"
 
-- 27/09, 28/09, 29/09 -> Estudo dos materiais para escrita
+- 25/09, 28/09, 29/09 -> Estudo dos materiais para escrita
 
-- 01/10, 02/10, 03/10 -> Escrita nas páginas
+- 01/10, 04/10, 05/10 -> Escrita nas páginas
 
 - 07/10 -> backgrounds diferentes nas páginas
 
@@ -119,6 +119,10 @@ d) Design:  CSS puro
 - 14/10 -> Cards com infográficos
 
 - 15/10 -> PDFS inseridos em "materiais" 
+
+- 16/10 -> Página de curiosidades editada 
+
+- 18/10 -> Mudanças e inserção de curiosidade, correçao das datas no github
 
 
 
